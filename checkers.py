@@ -43,7 +43,7 @@ def check_if_one_loop(board, previous_coordinate, current_coordinate):  # In the
                 previous_coordinate = current_coordinate
                 current_coordinate = board[row - 1][col]
                 if current_coordinate == start_coordinate:
-                    return = True
+                    return True
                     print ('loop is done')
                 else:
                     check_if_one_loop(previous_coordinate, current_coordinate)
@@ -54,7 +54,7 @@ def check_if_one_loop(board, previous_coordinate, current_coordinate):  # In the
                 previous_coordinate = current_coordinate
                 current_coordinate = board[row - 1][col]
                 if current_coordinate == start_coordinate:
-                    return = True
+                    return True
                     print ('loop is done')
                 else:
                     check_if_one_loop(previous_coordinate, current_coordinate)
@@ -65,7 +65,7 @@ def check_if_one_loop(board, previous_coordinate, current_coordinate):  # In the
                 previous_coordinate = current_coordinate
                 current_coordinate = board[row - 1][col]
                 if current_coordinate == start_coordinate:
-                    return = True
+                    return True
                     print ('loop is done')
                 else:
                     check_if_one_loop(previous_coordinate, current_coordinate)
@@ -76,7 +76,7 @@ def check_if_one_loop(board, previous_coordinate, current_coordinate):  # In the
                 previous_coordinate = current_coordinate
                 current_coordinate = board[row - 1][col]
                 if current_coordinate == start_coordinate:
-                    return = True
+                    return True
                     print ('loop is done')
                 else:
                     check_if_one_loop(previous_coordinate, current_coordinate)
