@@ -1,3 +1,6 @@
+#Creating a testboard in order to test our functions/checkers.
+
+#TODO: We probably need to create a board with "used" crosses (what we called circles before) in order to test the function test_if_complete_line.
 def board_maker(size):
     board = [[0] * size for i in range(size)]
     # board[1][0] = 1
